@@ -22,23 +22,18 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VOv-j2-9Re">
                                 <rect key="frame" x="20" y="472" width="374" height="385"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="390" id="t2M-PW-V7w"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="37" id="vJ8-sd-4fW"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="xD6-32-34n" firstAttribute="height" secondItem="VOv-j2-9Re" secondAttribute="height" id="0D0-Vq-grJ"/>
-                            <constraint firstItem="xD6-32-34n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="F0k-wJ-TtG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xD6-32-34n" secondAttribute="trailing" constant="20" id="ORN-g8-4eW"/>
-                            <constraint firstItem="xD6-32-34n" firstAttribute="width" secondItem="VOv-j2-9Re" secondAttribute="width" id="ZLD-Xy-Yiw"/>
-                            <constraint firstItem="VOv-j2-9Re" firstAttribute="top" secondItem="xD6-32-34n" secondAttribute="bottom" constant="38" id="iJn-zL-orv"/>
-                            <constraint firstItem="xD6-32-34n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jKo-Lb-QBr"/>
-                            <constraint firstItem="VOv-j2-9Re" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s0f-f7-gzK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VOv-j2-9Re" secondAttribute="trailing" constant="20" id="tOh-ha-AkS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VOv-j2-9Re" secondAttribute="bottom" constant="5" id="tiC-1T-ogn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xD6-32-34n" secondAttribute="trailing" constant="20" id="1zu-uw-IMf"/>
+                            <constraint firstItem="VOv-j2-9Re" firstAttribute="top" secondItem="xD6-32-34n" secondAttribute="bottom" constant="38" id="CK3-aY-ZNE"/>
+                            <constraint firstItem="VOv-j2-9Re" firstAttribute="height" secondItem="xD6-32-34n" secondAttribute="height" id="I1S-Ch-fGz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VOv-j2-9Re" secondAttribute="trailing" constant="20" id="UaD-Om-ysd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VOv-j2-9Re" secondAttribute="bottom" constant="5" id="YXD-hu-szP"/>
+                            <constraint firstItem="VOv-j2-9Re" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aPZ-ez-uGU"/>
+                            <constraint firstItem="xD6-32-34n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mmZ-oF-dnY"/>
+                            <constraint firstItem="xD6-32-34n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="nJ9-ZK-iwF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
